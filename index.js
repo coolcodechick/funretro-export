@@ -15,7 +15,7 @@ async function run() {
   await page.goto(url);
   await page.waitForSelector('.message-list');
 
-  const boardTitle = await page.$eval('#board-name', (node) => node.innerText.trim());
+  const boardTitle = await page.$eval('.board-name', (node) => node.innerText.trim());
 
   if (!boardTitle) {
     throw 'Board title does not exist. Please check if provided URL is correct.'
