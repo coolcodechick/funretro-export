@@ -15,6 +15,11 @@ npm install
 npm start -- "http://funretro.io/board..." "../exported-file.txt"
 ```
 
+Optionally, can support .csv as output if used as file name.
+
+```shell
+npm start -- "http://funretro.io/board..." "../exported-file.csv"
+```
 ## TODO
 
 - Export card comments
