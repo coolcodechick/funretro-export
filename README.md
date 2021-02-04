@@ -15,10 +15,10 @@ npm install
 npm start -- "http://funretro.io/board..." "../exported-file.txt"
 ```
 
-Optionally, can support .csv as output if used as file name.
+Optionally, can support .csv if included as output and will use the parent directory and the board name as the file name.
 
 ```shell
-npm start -- "http://funretro.io/board..." "../exported-file.csv"
+npm start -- "http://funretro.io/board..." "csv"
 ```
 ## TODO
 
